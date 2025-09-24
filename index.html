@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteBuds Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">TasteBuds</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-dark text-white text-center d-flex align-items-center" style="height: 90vh; background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Welcome to TasteBuds</h1>
+      <p class="lead">Delicious food made with love ❤️</p>
+      <a href="#menu" class="btn btn-warning btn-lg mt-3">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1606788075761-1c4b15e1b2b9" class="card-img-top" alt="Pizza">
+          <div class="card-body text-center">
+            <h5 class="card-title">Margherita Pizza</h5>
+            <p class="card-text">Classic delight with fresh mozzarella & basil.</p>
+            <p class="fw-bold">₹299</p>
+            <a href="#" class="btn btn-sm btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1604908177225-df1d4d8e1d59" class="card-img-top" alt="Burger">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cheese Burger</h5>
+            <p class="card-text">Juicy patty with cheddar cheese & veggies.</p>
+            <p class="fw-bold">₹199</p>
+            <a href="#" class="btn btn-sm btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1617196035154-5b00c54b92a9" class="card-img-top" alt="Pasta">
+          <div class="card-body text-center">
+            <h5 class="card-title">Creamy Pasta</h5>
+            <p class="card-text">Italian pasta tossed in creamy white sauce.</p>
+            <p class="fw-bold">₹249</p>
+            <a href="#" class="btn btn-sm btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1" class="img-fluid rounded" alt="Restaurant">
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>At TasteBuds, we believe in serving happiness through food. With fresh ingredients, authentic recipes, and a warm ambience, we aim to make your dining experience memorable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+          </div>
+          <button class="btn btn-success w-100">Send Message</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <iframe class="w-100 rounded" height="300" src="https://www.google.com/maps/embed?pb=!1m18!..." style="border:0;" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    <p>© 2025 TasteBuds | Designed with Bootstrap</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
